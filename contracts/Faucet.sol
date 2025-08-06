@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 // A contract that withdraws and accepts ether
 contract Faucet {
-    // 'give ether to anyone who asks
+    // Semds ether to anyone who asks
     function withdraw(uint withdraw_amount) public {
 
         // limit withdrawal amount to 0.1 ether
